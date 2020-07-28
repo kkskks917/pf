@@ -400,4 +400,8 @@ html {
     border-radius:30px;
   }
   
+  .head > .icon-bar > .icon2 {
+    width:100px;
+    height:100px;
+  }
   /* 아이콘끝*/
