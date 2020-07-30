@@ -357,6 +357,7 @@ html {
   }
   .head > .icon-bar > .icon > a {
     z-index:2;
+    
   }
   .top {
     width:100%;
@@ -390,7 +391,7 @@ html {
   .head > .icon-bar > .icon::before {
     content:"";
     position:absolute;
-    top:50%;
+    top:40%;
     left:50%;
     transform:translate(-50%, -50%);
     background-color:#004098;
@@ -400,13 +401,47 @@ html {
     border-radius:30px;
   }
   
-  .head > .icon-bar > .icon2 > a > img {
+  .head > .icon-bar > .icon2 > a > .f-icon {
     width:26px;
     height:26px;
-    float:left;
+    margin-left:100px;
+  }
+  .head > .icon-bar > .icon2 > a > .s-icon {
+    width:10px;
+    height:6px;
+    margin-left:12px;
+  }
+  .head > .icon-bar > .icon2 > a > .i-submenu {
+    color:rgba(255,255,255,0.6);
+    position: absolute;
+    top:33px;
+    left:-23px;
+    visibility: hidden;
+    opacity: 0;
+    font-weight:bold;
+    transition:opacity 1s;
+  }
+  .head > .icon-bar > .icon2 > a > .i-submenu > li:first-child {
+    border-bottom: 2px solid #fff;
+    color:rgba(255,255,255,1);
+    margin-bottom:25px;
+  }
+  .head > .icon-bar > .icon2 > a > .i-submenu.active {
+    visibility: visible;
+    opacity: 1;
   }
 
 
 
   
   /* 아이콘끝*/
+
+  /*호버시작*/
+  .head > .menu > ul:hover {
+    background-color:#fff;
+  }
+  /*호버끝*/
+
+  body {
+    background-color:black;
+  }
