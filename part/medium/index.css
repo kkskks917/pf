@@ -400,11 +400,13 @@ html {
     border-radius:30px;
   }
   
-  .head > .icon-bar > .icon2 {
-    width:300px;
-    height:300px;
+  .head > .icon-bar > .icon2 > a > img {
+    width:100px;
+    height:100px;
     float:left;
   }
+
+
 
   
   /* 아이콘끝*/
