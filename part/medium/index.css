@@ -403,5 +403,8 @@ html {
   .head > .icon-bar > .icon2 {
     width:100px;
     height:100px;
+    float:left;
   }
+
+  
   /* 아이콘끝*/
