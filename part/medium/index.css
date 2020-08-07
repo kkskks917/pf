@@ -340,8 +340,18 @@ html {
     height:100px;
   }
   
-  .head > .logo > a > img {
-    width: 140px;
+  .head > .logo > a > .logo-1 {
+    width: 160px;
+    height: 100px;
+    padding-right:10px;
+    background: url("https://www.themedium.io/asset/_front/kr/common/images/common/logo_white.png")no-repeat;
+    background-size: contain;
+  }
+  .head > .logo > a > .logo-1.active {
+    background: url("https://www.themedium.io/asset/_front/kr/common/images/common/logo.png") no-repeat;
+    background-size: contain;
+
+    width: 160px;
     height: 100px;
     padding-right:10px;
   }
@@ -372,6 +382,7 @@ html {
     }
     .head > .menu > ul > li {
       font-size:22px;
+      font-weight:bold;
     }
     
   }
@@ -384,6 +395,7 @@ html {
     }
     .head > .menu > ul > li {
       font-size:18px;
+      font-weight:bold;
     }
   }
   /* 아이콘시작*/
@@ -430,6 +442,9 @@ html {
     visibility: visible;
     opacity: 1;
   }
+  .head > .menu > ul > li > a {
+    padding-bottom:8px;
+  }
 
 
 
@@ -439,6 +454,18 @@ html {
   /*호버시작*/
   .head > .menu > ul:hover {
     background-color:#fff;
+  }
+  .top:hover {
+    background-color:#fff;
+  }
+  .top:hover .head {
+    background-color:#fff;
+  }
+  .head > .menu > ul:hover li {
+    color:black;
+  }
+  .head > .menu > ul > li:hover a {
+    border-bottom:4px solid blue;
   }
   /*호버끝*/
 
