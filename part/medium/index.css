@@ -417,6 +417,10 @@ html {
     width:26px;
     height:26px;
     margin-left:100px;
+    background: url("https://www.themedium.io/asset/_front/kr/common/images/icon/icon_language_select_white.png");
+  }
+  .head > .icon-bar > .icon2 > a > .f-icon.active {
+    background: url("https://www.themedium.io/asset/_front/kr/common/images/icon/icon_language_select.png");
   }
   .head > .icon-bar > .icon2 > a > .s-icon {
     width:10px;

@@ -12,4 +12,11 @@ $('.head > .menu > ul').mouseover(function(){
 })
 $('.head > .menu > ul').mouseout(function(){
     $('.head > .logo > a > .logo-1').removeClass('active');
+});
+
+$('.head > .menu > ul').mouseover(function(){
+    $('.head > .icon-bar > .icon2 > a > .f-icon').addClass('active');
+})
+$('.head > .menu > ul').mouseout(function(){
+    $('.head > .icon-bar > .icon2 > a > .f-icon').removeClass('active');
 })
